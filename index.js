@@ -17,10 +17,10 @@ const fetchData = async (cityName) => {
 bot.on(message('sticker'), (ctx) => ctx.reply('👍'));
 
 bot.start((ctx) => {
-  ctx.reply("Hello im weather bot ! Just write your city name ......");
+  ctx.reply("Hello im weather bot ! Just enter your city name ......");
 });
 
-bot.hears('hi', (ctx) => ctx.reply('Hey there ! Hello im weather bot ! Just write your city name ......'));
+bot.hears('hi', (ctx) => ctx.reply('Hey there ! Hello im weather bot ! Just enter your city name ......'));
 
 bot.on("text", async (ctx) => {
 
